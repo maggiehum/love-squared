@@ -1,1 +1,89 @@
 // Specific CSS for your home-page
+body {
+  background-image: url('backdrop.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.second-box{
+  padding-top: 100px;
+  background-color: #f3f3f3;
+}
+
+.description{
+  color: #7C6F73;
+}
+
+.problems {
+  display: flex;
+  justify-content: space-between;
+  // margin-top: 62px;
+  max-width: 80%;
+  margin: auto;
+  padding-top: 62px;
+  // background-color: #e5e2e3;
+}
+
+.numbers{
+  font-family: 'Abril Fatface', cursive;
+  color: rgba(0,0,0,0.15);
+  font-size: 80px;
+}
+
+.titles {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+}
+
+.problem-titles {
+  font-family: 'Abril Fatface', cursive;
+  color: #fc1370;
+}
+
+.problem-box{
+  max-width: 260px;
+  padding-bottom: 62px;
+}
+
+.solutions {
+  padding-top: 62px;
+  background-color: #f3f3f3;
+}
+
+.solution-container{
+  display: flex;
+  justify-content: center;
+}
+
+.solution-box{
+  height: 480px;
+  width: 400px;
+  background-color: white;
+  border: 0.8px solid rgba(0,0,0,0.15);
+  margin: 62px 0px 62px 0px;
+}
+
+// .divider-element {
+//   height: 5px;
+//   width: 40%;
+//   background-color: rgba(0,0,0,0.15);
+//   margin: auto;
+// }
+
+.links {
+  text-decoration: none;
+  color: black;
+}
+
+.links:hover{
+  color: #fc1370;
+  transition: 0.2s;
+}
+
+.transparent-box {
+  width: 80%;
+  left: -50px;
+  background-color: #f3f3f300;
+  padding-bottom: 1000px;
+}

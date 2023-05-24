@@ -1,0 +1,25 @@
+.banner {
+  background-image: url("banner.png");
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 25%;
+  color: white;
+  margin-left: 50px;
+}
+
+.second-line{
+  font-family: 'Abril Fatface', cursive;
+  max-width: 50%;
+  font-size: 60px;
+}
+
+.first-line{
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 100;
+}
