@@ -1,4 +1,4 @@
-<div class='backdrop'>
+<div id='backdrop'>
   <div class='banner'>
     <div class='hero-text'>
       <p class='first-line'>How to be happy in life?</p>
@@ -47,9 +47,28 @@
     <div class='divider-element'></div>
     <section>
       <div class='transparent-box'>
-        <h3 id='transparent-box-text'>An amazing relationship leads to ut labore et dolore magnam etiam.</h3>
-        <h6 id='name'>Susan Hum</h6>
+        <div id='transparent-box-text'>
+          <h3>An amazing relationship leads to ut labore et dolore magnam etiam.</h3>
+          <h6>Susan Hum</h6>
+        </div>
+        <div id='worker'>
+          <%= image_tag('worker.png', :class => 'worker-img') %>
+        </div>
+        <div id='about'>
+          <h3>About Me</h3>
+          <h6>I’m an NLP Certified Relationship Coach eius modi tempora incidunt.</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <%= link_to 'Read More', about_path, class:'btn about-link' %>
+        </div>
       </div>
+    </section>
+    <section id='clients'>
+      <h4>Happy Clients</h4>
+      <div class='solution-container'>
+          <div class='solution-box'></div>
+          <div class='solution-box'></div>
+          <div class='solution-box'></div>
+        </div>
     </section>
   </div>
 </div>

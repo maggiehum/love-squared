@@ -1,5 +1,5 @@
 // Specific CSS for your home-page
-body {
+#backdrop {
   background-image: url('backdrop.png');
   background-position: center;
   background-size: cover;
@@ -58,6 +58,7 @@ body {
 .solution-container{
   display: flex;
   justify-content: center;
+  padding-bottom: 60px;
 }
 
 .solution-box{
@@ -87,16 +88,17 @@ body {
 
 .transparent-box {
   max-width: 100%;
-  max-height: 50%;
+  height: 200px;
   background-color: #f3f3f300;
   padding-bottom: 1000px;
   border-bottom: 50px;
   border-left: 290px;
   border-style: solid;
   border-color: #f3f3f3;
+  position: relative;
 }
 
-#transparent-box-text{
+#transparent-box-text > h3{
   font-family: 'Abril Fatface', cursive;
   font-style: italic;
   font-size: 50px;
@@ -105,9 +107,65 @@ body {
   width: 50%;
 }
 
-#name {
+#transparent-box-text > h6 {
   font-family: 'Abril Fatface', cursive;
+  color: #7C6F73;
   font-size: 20px;
   margin-top: 20px;
   margin-left: 50px;
+}
+
+#worker {
+  position: absolute;
+  top: 350px;
+  left: -126px;
+  margin-bottom: 100px;
+}
+
+.worker-img{
+  border-radius: 5px 0px 5px 5px;
+}
+
+#about{
+  background-color: #fc1370;
+  height: 650px;
+  max-width: 50%;
+  position: absolute;
+  top: 350px;
+  left: 444px;
+  padding: 45px;
+  border-radius: 0px 5px 0px 0px;
+}
+
+#about > h3, h6 {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+}
+
+#about > h3 {
+  font-size: 45px;
+  padding-top: 80px;
+}
+
+#about > h6 {
+  font-size: 25px;
+  padding-top: 45px;
+}
+
+#about > p {
+  color: white;
+  padding-top: 10px;
+}
+
+.btn {
+  background-color: #fc89b7;
+  color: white;
+  margin-top: 45px;
+  padding: 13px;
+  border-radius: 5px;
+}
+
+#clients {
+  background-color: #f3f3f3;
+  padding: 170px
 }
