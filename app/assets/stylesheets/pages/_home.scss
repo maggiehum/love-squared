@@ -6,6 +6,10 @@ body {
   background-attachment: fixed;
 }
 
+#overlay {
+  background-color: #f3f3f358;
+}
+
 .second-box{
   padding-top: 100px;
   background-color: #f3f3f3;
@@ -82,8 +86,28 @@ body {
 }
 
 .transparent-box {
-  width: 80%;
-  left: -50px;
+  max-width: 100%;
+  max-height: 50%;
   background-color: #f3f3f300;
   padding-bottom: 1000px;
+  border-bottom: 50px;
+  border-left: 290px;
+  border-style: solid;
+  border-color: #f3f3f3;
+}
+
+#transparent-box-text{
+  font-family: 'Abril Fatface', cursive;
+  font-style: italic;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 50%;
+}
+
+#name {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
 }
